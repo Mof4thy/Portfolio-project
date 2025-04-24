@@ -1,0 +1,148 @@
+.my_progect_sec{
+
+    padding: 80px 0 80px 0 ;
+    background-color: rgb(0, 0, 0);
+text-align: center;
+}
+.my_progect_header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.my_progect_header h2{
+
+    font-size: 45px;
+	font-weight: 700;
+    color: white;
+}
+.my_progect_header p{
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    margin: 0px 0 50px 0;
+}
+.btns_box{
+    
+    background-color:rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    width: 60%;
+    border-radius:50px;
+    border: 1px rgb(155, 155, 155) solid;
+    overflow: hidden;
+}
+.btn_div{
+    background-color: rgb(30, 30, 30);
+    border: none;
+    border-right: 1px rgb(155, 155, 155) solid;
+    padding: 15px 80px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+}
+.btn_left_div{
+    border-right:0;
+}
+.btn_div:hover{
+    background-color: rgb(40, 8, 52);
+}
+
+.changed_sec{
+
+    margin-top: 35px;
+}
+
+.projects_sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;      
+}
+
+.thrd_sec_parag{
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    margin: 0px 0 50px 0;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 1200px) {
+
+    .btns_box{
+    
+        background-color:rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        width: 80%;
+        border-radius:50px;
+        border: 1px rgb(155, 155, 155) solid;
+        overflow: hidden;
+    }
+
+
+    .btn_div{
+        background-color: rgb(30, 30, 30);
+        border: none;
+        border-right: 1px rgb(155, 155, 155) solid;
+        padding: 15px 50px;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .projects_sec{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;      
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .my_progect_header h2{
+
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .my_progect_header p{
+        color: #B8B8B8;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+        margin: 0px 0 50px 0;
+    }
+    .btns_box{
+    
+        background-color:rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        width: 80%;
+        border-radius:50px;
+        border: 1px rgb(155, 155, 155) solid;
+        overflow: hidden;
+    }
+
+    .btn_div{
+        background-color: rgb(30, 30, 30);
+        border: none;
+        border-right: 1px rgb(155, 155, 155) solid;
+        padding: 15px 40px;
+        font-size: 13px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .projects_sec{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;      
+    }
+
+
+}
