@@ -62,7 +62,7 @@ const MyPrpject = ()=>{
 
               <div className="my_progect_header">
                   <h2>My Project</h2>
-                  <p>My name is Mohamed, w mayten omak ya islam el kalb</p>
+                  <p>My name is Mohamed, i live in cairo. this is my react project.</p>
               </div>
               
               <div className="btns_box">
@@ -86,7 +86,7 @@ const MyPrpject = ()=>{
                 
                 visiblecompnent === 'paragraph' ?
                   
-                <p className="thrd_sec_parag">This is the paragraph for the third section.</p>
+                <p className="thrd_sec_parag">My name is Mohamed, i live in cairo. this is my react project.</p>
                     
                 :null}
 
